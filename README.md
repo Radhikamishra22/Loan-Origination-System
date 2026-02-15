@@ -1,65 +1,35 @@
 Loan Origination System (Java)
-📌 Project Overview
+Project Overview
 
-The Loan Origination System is a Java-based application designed to automate and manage the end-to-end process of loan application handling. The system validates customer details, performs deduplication checks, calculates EMI plans, and evaluates loan eligibility using predefined scoring rules. The project demonstrates the practical use of object-oriented programming concepts and modular design.
+A Java-based Loan Origination System developed using object-oriented programming (OOP) to automate loan application processing, customer validation, EMI calculation, and loan eligibility evaluation.
 
-🎯 Objectives
+Features
 
-To automate the loan application process
-
-To validate and verify customer information
-
-To calculate EMI plans based on loan amount and tenure
-
-To determine loan eligibility using scoring logic
-
-To ensure clean and duplicate-free customer records
-
-⚙️ Features
-
-Customer data management
-
-Input validation and verification
-
-Deduplication check to avoid duplicate records
-
-Credit scoring and eligibility assessment
-
+Customer data handling
+Input validation and deduplication
+Credit scoring and eligibility check
 EMI (Equated Monthly Installment) calculation
+Modular OOP-based design
 
-Modular class-based architecture
+Technologies Used
 
-🛠️ Technologies Used
+Java
+Object-Oriented Programming (OOP)
+Git & GitHub
 
-Programming Language: Java
+How to Run
+javac LoanOriginationSystem.java
+java LoanOriginationSystem
 
-Concepts Used: Object-Oriented Programming (OOP)
+Project Structure
+Customer.java  
+Loan.java  
+Scoring.java  
+EmiPlan.java  
+ValidationUtility.java  
+DedupeCheck.java  
+LoanOriginationSystem.java  
 
-Tools: Eclipse / VS Code
+Author
 
-Version Control: Git and GitHub
-
-🧩 System Modules
-
-Customer Module: Handles customer details and basic information
-
-Validation Module: Validates user input and required fields
-
-Deduplication Module: Prevents duplicate customer records
-
-Scoring Module: Evaluates customer eligibility
-
-Loan Module: Processes loan details
-
-EMI Plan Module: Calculates EMI based on loan amount and duration
-
-▶️ How to Run the Project
-
-Clone the repository:
-
-git clone <repository-url>
-
-
-Open the project in Eclipse or VS Code.
-
-Compile the Java files:
+Radhika Mishra
